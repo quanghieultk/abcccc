@@ -1,0 +1,110 @@
+// stylelint-disable declaration-no-important
+// @import "./utilities/variables";  
+// @import "./utilities/card";  
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bottom_wrapper {
+    .message_input_wrapper {
+        display: inline-block;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #bcbdc0;
+        width: calc(100% - 160px);
+        position: relative;
+        padding: 0 20px;
+        .message_input {
+            border: none;
+            height: 100%;
+            box-sizing: border-box;
+            width: calc(100% - 40px);
+            position: absolute;
+            outline-width: 0;
+            color: gray;
+        }
+    }
+    .send_message {
+        width: 140px;
+        height: 50px;
+        display: inline-block;
+        border-radius: 50px;
+        background-color: #337ab7;
+        border: 2px solid #337ab7;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.2s linear;
+        text-align: center;
+        float: right;
+        &:hover {
+            color: #337ab7;
+            background-color: #fff;
+        }
+        .text {
+            font-size: 18px;
+            font-weight: 300;
+            display: inline-block;
+            line-height: 48px;
+        }
+    }
+}
+
+.bubbleWrapper {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-self: flex-end;
+    color: #fff;
+}
+
+.inlineContainer {
+    display: inline-flex;
+}
+
+.inlineContainer.own {
+    flex-direction: row-reverse;
+}
+
+.inlineIcon {
+    width: 20px;
+    object-fit: contain;
+}
+
+.ownBubble {
+    min-width: 60px;
+    max-width: 700px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #5b5377;
+    border-radius: 16px 16px 0 16px;
+    border: 1px solid #443f56;
+}
+
+.otherBubble {
+    min-width: 60px;
+    max-width: 700px;
+    padding: 14px 18px;
+    margin: 6px 8px;
+    background-color: #6C8EA4;
+    border-radius: 16px 16px 16px 0;
+    border: 1px solid #54788e;
+}
+
+.own {
+    align-self: flex-end;
+}
+
+.other {
+    align-self: flex-start;
+}
+
+span.own {
+    font-size: 14px;
+    color: grey;
+}
+
+span.other {
+    font-size: 14px;
+    color: grey;
+}

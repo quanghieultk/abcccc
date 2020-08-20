@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Detail</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./../dist/custom.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Navbar text with an inline element
+            </span>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="col-sm-12">
+        <h1>Request number: 4496</h1>
+    </div>
+    <div class="container-fluid body-content">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header bluetitle-color">
+                                Response
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label>Dc response(*):</label>
+                                        <textarea autocomplete="off" class="form-control" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <button type="button" class="btn bluetitle-color">Open Request</button>
+                                        <button type="button" class="btn btn-default">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                Request
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <label>
+                                            Status:
+                                            <span>New Request</span>
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Created date:</label>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>Created by:</label>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label for="title">Title:</label>
+                                        <input readonly="" id="title" type="text" class="form-control">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="title">FromDate:</label>
+                                        <input type="datetime-local" name="date_to" class="form-control form-control-sm"
+                                            id="colFormLabelSm" placeholder="col-form-label-sm">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="title">ToDate:</label>
+                                        <input type="datetime-local" name="date_to" class="form-control form-control-sm"
+                                            id="colFormLabelSm" placeholder="col-form-label-sm">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <label for="virtualMachine">Server:</label>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <label for="description">Description:</label>
+                                        <textarea readonly="" id="description" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                Change Logs
+                            </div>
+                            <div class="card-body" style="height:300px; overflow-y: scroll;">
+                                <div class="list-group">
+                                    <span class="list-group-item">
+                                        <b>trung.tran@netpower.no</b> - <i></i>
+                                        <div class="list-group-item-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime soluta
+                                            voluptates quidem ratione ip
+                                        </div>
+                                    </span>
+                                    <span class="list-group-item ">
+                                        <b>trung.tran@netpower.no</b> - <i></i>
+                                        <div class="list-group-item-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maxime soluta
+                                            voluptates quidem ratione ip
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card mt-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Conversation
+                                </div>
+                                <div class="card-body" style="height:350px; overflow-y: scroll;">
+                                    <div class="bubbleWrapper">
+                                        <div class="inlineContainer">
+                                            <img class="inlineIcon"
+                                                src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png">
+                                            <div class="otherBubble other">
+                                                No ninjas!
+                                            </div>
+                                        </div><span class="other">08:41</span>
+                                    </div>
+                                    <div class="bubbleWrapper">
+                                        <div class="inlineContainer own">
+                                            <img class="inlineIcon"
+                                                src="https://www.pinclipart.com/picdir/middle/205-2059398_blinkk-en-mac-app-store-ninja-icon-transparent.png">
+                                            <div class="ownBubble own">
+                                                The first rule of being a ninja is, 'Do no harm.'
+                                            </div>
+                                        </div><span class="own">08:55</span>
+                                    </div>
+                                    <div class="bubbleWrapper">
+                                        <div class="inlineContainer">
+                                            <img class="inlineIcon"
+                                                src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png">
+                                            <div class="otherBubble other">
+                                                Knowing when to leave requires training.
+                                            </div>
+                                        </div>
+                                    </div><span class="other">10:13</span>
+                                    <div class="bubbleWrapper">
+                                        <div class="inlineContainer own">
+                                            <img class="inlineIcon"
+                                                src="https://www.pinclipart.com/picdir/middle/205-2059398_blinkk-en-mac-app-store-ninja-icon-transparent.png">
+                                            <div class="ownBubble own">
+                                                Stunned but impressed.
+                                            </div>
+                                        </div><span class="own">11:07</span>
+                                    </div>
+                                    <div class="bubbleWrapper">
+                                        <div class="inlineContainer">
+                                            <img class="inlineIcon"
+                                                src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png">
+                                            <div class="otherBubble other">
+                                                How about throwing stars?
+                                            </div>
+                                        </div><span class="other">11:11</span>
+                                    </div>
+
+                                    <div class="bottom_wrapper clearfix">
+                                        <div class="message_input_wrapper">
+                                            <input class="message_input" placeholder="Type your message here..." />
+                                        </div>
+                                        <div class="send_message">
+                                            <div class="icon"></div>
+                                            <div class="text">Send</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="card mt-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    Conversation
+                                </div>
+                                <div class="card-body" style="height:350px; overflow-y: scroll; padding: 0.25rem">
+                                    <!-- Contenedor Principal -->
+                                    <div class="comments-container">
+                                        <ul id="comments-list" class="comments-list">
+                                            <!-- <li>
+                                                <div class="comment-main-level">
+                                                    
+                                                    <div class="comment-avatar"><img
+                                                            src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg"      
+                                                            alt=""></div>
+                                                   
+                                                    <div class="comment-box">
+                                                        <div class="comment-head">
+                                                            <h6 class="comment-name by-author"><a
+                                                                    href="http://creaticode.com/blog">Agustin Ortiz</a>
+                                                            </h6>
+                                                            <span>hace 20 minutos</span>
+                                                            <i class="fa fa-reply"></i>
+                                                            <i class="fa fa-heart"></i>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Velit omnis animi et iure laudantium vitae, praesentium
+                                                            optio, sapiente distinctio illo?
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <ul class="comments-list reply-list">
+                                                    <li>
+                                                      
+                                                        <div class="comment-avatar"><img
+                                                                src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg"
+                                                                alt="">
+                                                            </div>
+                                                        
+                                                        <div class="comment-box">
+                                                            <div class="comment-head">
+                                                                <h6 class="comment-name"><a
+                                                                        href="http://creaticode.com/blog">Lorena
+                                                                        Rojero</a></h6>
+                                                                <span>hace 10 minutos</span>
+                                                                <i class="fa fa-reply"></i>
+                                                                <i class="fa fa-heart"></i>
+                                                            </div>
+                                                            <div class="comment-content">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit. Velit omnis animi et iure laudantium vitae,
+                                                                praesentium optio, sapiente distinctio illo?
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                     
+                                                        <div class="comment-avatar"><img
+                                                                src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg"
+                                                                alt=""></div>
+                                                       
+                                                        <div class="comment-box">
+                                                            <div class="comment-head">
+                                                                <h6 class="comment-name by-author"><a
+                                                                        href="http://creaticode.com/blog">Agustin
+                                                                        Ortiz</a></h6>
+                                                                <span>hace 10 minutos</span>
+                                                                <i class="fa fa-reply"></i>
+                                                                <i class="fa fa-heart"></i>
+                                                            </div>
+                                                            <div class="comment-content">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                                elit. Velit omnis animi et iure laudantium vitae,
+                                                                praesentium optio, sapiente distinctio illo?
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li> -->
+
+                                            <!-- <li>
+                                                <div class="comment-main-level">
+                                                  
+                                                    <div class="comment-avatar"><img
+                                                            src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg"
+                                                            alt=""></div>
+                                                   
+                                                    <div class="comment-box">
+                                                        <div class="comment-head">
+                                                            <h6 class="comment-name"><a
+                                                                    href="http://creaticode.com/blog">Lorena Rojero</a>
+                                                            </h6>
+                                                            <span>hace 10 minutos</span>
+                                                            <i class="fa fa-reply"></i>
+                                                            <i class="fa fa-heart"></i>
+                                                        </div>
+                                                        <div class="comment-content">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                            Velit omnis animi et iure laudantium vitae, praesentium
+                                                            optio, sapiente distinctio illo?
+                                                        </div>
+                                                        <div class="bottom_wrapper clearfix">
+                                                            <div class="message_input_wrapper">
+                                                                <input class="message_input" placeholder="Type your message here..." />
+                                                            </div>
+                                                            <div class="send_message">
+                                                                <div class="icon"></div>
+                                                                <div onclick="clickSendNewMessage()" class="text">Send</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </li> -->
+                                        </ul>
+                                        <div class="bottom_wrapper clearfix">
+                                            <div class="message_input_wrapper">
+                                                <input class="message_input" placeholder="Type your message here..." />
+                                            </div>
+                                            <div class="send_message">
+                                                <div class="icon"></div>
+                                                <div onclick="clickSendNewMessage()" class="text">Send</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/commentDetail.js"></script>
+    <script type="text/javascript">
+      
+    </script>
+</body>
+
+</html>
